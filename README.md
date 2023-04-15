@@ -5,11 +5,10 @@ Welcome to our repository of Java projects for beginners! This repository is des
 The repository contains a variety of Java projects, including:
 
 - Calculator App
+- Guess the Number Game
 - Todo List App
 - Tic-Tac-Toe Game
 - Temperature Converter
-- Guess the Number Game
-And more!
 
 ## How to Use
 To use this repository, simply clone or download the repository to your local machine and open the project you are interested in using an IDE of your choice. Each project comes with a README file that explains the project's requirements, features, and implementation details.
