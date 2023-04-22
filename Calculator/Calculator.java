@@ -30,8 +30,9 @@ public class Calculator {
                 break;
             case '/':
                 if (num2 == 0) {
-                    System.out.println("Error: division by zero");
-                } else {
+                    System.out.println("Error: Division by zero");
+                } 
+                else {
                     result = num1 / num2;
                     System.out.println(num1 + " / " + num2 + " = " + result);
                 }
