@@ -6,8 +6,8 @@ This is a simple command-line Todo List App implemented in Java using the ArrayL
 - Remove items from the todo list
 - Display the current items in the todo list
 ## Usage
-= Compile the Java program.
-= Run the program.
+- Compile the Java program.
+- Run the program.
 - Follow the on-screen instructions to add, remove, or view items in the todo list.
 
 ## Contributing
