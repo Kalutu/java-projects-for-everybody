@@ -8,7 +8,9 @@ This is a simple Java program that converts temperature between Celsius, Fahrenh
 - Enter the temperature you want to convert and its unit (Celsius, Fahrenheit, or Kelvin).
 - The program will display the converted temperature in the other two units.
 
+
 ## Examples
+```
 Convert 30 Celsius to Fahrenheit and Kelvin
 
 Enter temperature: 30
@@ -28,9 +30,9 @@ Enter temperature: 373
 Enter unit (C/F/K): K
 373.00 K = 99.85 C
 373.00 K = 675.67 F
-
+```
 ## Supported Units
 The program supports the following temperature units:
-Celsius (C)
-Fahrenheit (F)
-Kelvin (K)
+- Celsius (C)
+- Fahrenheit (F)
+- Kelvin (K)
