@@ -9,6 +9,7 @@ The repository contains a variety of Java projects, including:
 - Todo List App
 - Tic-Tac-Toe Game
 - Temperature Converter
+- And more...
 
 ## How to Use
 To use this repository, simply clone or download the repository to your local machine and open the project you are interested in using an IDE of your choice. Each project comes with a README file that explains the project's requirements, features, and implementation details.
