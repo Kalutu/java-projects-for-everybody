@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class AddressBook {
     static ArrayList<Contact> contacts = new ArrayList<Contact>();
     static Scanner input = new Scanner(System.in);
-    
+
     public static void main(String[] args) {
         int choice;
         do {
@@ -16,7 +16,7 @@ public class AddressBook {
             System.out.println("5. Exit");
             System.out.print("Enter your choice: ");
             choice = input.nextInt();
-            
+
             switch(choice) {
                 case 1:
                     addContact();
@@ -38,7 +38,7 @@ public class AddressBook {
             }
         } while(choice != 5);
     }
-    
+
     public static void addContact() {
         System.out.print("Enter name: ");
         String name = input.next();
@@ -52,7 +52,7 @@ public class AddressBook {
         contacts.add(c);
         System.out.println("Contact added successfully!");
     }
-    
+
     public static void viewContacts() {
         if(contacts.size() == 0) {
             System.out.println("No contacts found!");
@@ -63,7 +63,7 @@ public class AddressBook {
             System.out.println(contacts.get(i));
         }
     }
-    
+
     public static void searchContact() {
         System.out.print("Enter name to search: ");
         String name = input.next();
@@ -80,7 +80,7 @@ public class AddressBook {
             System.out.println("Contact not found!");
         }
     }
-    
+
     public static void deleteContact() {
         System.out.print("Enter name to delete: ");
         String name = input.next();
@@ -104,30 +104,33 @@ class Contact {
     private String address;
     private String phone;
     private String email;
-    
+
     public Contact(String name, String address, String phone, String email) {
         this.name = name;
         this.address = address;
         this.phone = phone;
         this.email = email;
     }
-    
+
     public String getName() {
         return name;
     }
-    
+
     public String getAddress() {
         return address;
     }
-    
+
     public String getPhone() {
         return phone;
     }
-    
+
     public String getEmail() {
         return email;
     }
-    
+
     public String toString() {
-        return "Name: " + name + "\nAddress: " + address + "\
+        return "Name: " + name + "\nAddress: " + address
+                + "\nPhone: " + phone + "\nEmail: " + email;
+    }
+}
 
