@@ -32,3 +32,16 @@ javac BankAccountManagementSystem.java
 ```
 java BankAccountManagementSystem
 ```
+
+5. Follow the on-screen instructions to perform various operations on the bank accounts.
+
+## Usage
+- Choose options from the provided menu to create accounts, deposit money, withdraw money, or check balances.
+- Enter the required information as prompted by the program.
+- The program will provide appropriate messages and notifications based on the selected options.
+
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+## Credits
+This project is created by Kalutu Daniel.
