@@ -23,5 +23,11 @@ This implementation is a basic version of a library management system and does n
 
 Feel free to modify and extend the code to suit your needs.
 
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+## Credits
+This project is created by Kalutu Daniel.
+
 
 
