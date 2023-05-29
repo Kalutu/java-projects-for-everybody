@@ -1,8 +1,8 @@
 # Quiz Application
-A Java program that presents multiple-choice questions to the user, loads questions from a file or database, and keeps track of the score.
+A Java program that presents multiple-choice questions to the user, loads questions from a file, and keeps track of the score.
 
 ## Introduction
-The Quiz Application is a program that allows users to take a multiple-choice quiz. It loads questions from a file or database, presents them to the user, and keeps track of the score based on the user's answers.
+The Quiz Application is a program that allows users to take a multiple-choice quiz. It loads questions from a file, presents them to the user, and keeps track of the score based on the user's answers.
 
 ## Features
 - Loads questions from a file.
