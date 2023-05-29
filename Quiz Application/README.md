@@ -22,6 +22,11 @@ The Quiz Application is a program that allows users to take a multiple-choice qu
    javac QuizApplication.java
    ```
 4. Run the compiled program using the following command:
-  ```
-  java QuizApplication
-  ```
+   ```
+   java QuizApplication
+   ```
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+## Credits
+This project is created by Kalutu Daniel.
