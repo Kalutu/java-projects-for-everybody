@@ -24,4 +24,10 @@ Hangman is a guessing game where the player must guess a word by suggesting lett
    ```
    java HangmanGame
    ```
+   
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+
+## Credits
+This project is created by Kalutu Daniel.
 
