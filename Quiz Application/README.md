@@ -1,30 +1,32 @@
 # Quiz Application
-A Java program that presents multiple-choice questions to the user, loads questions from a file, and keeps track of the score.
-
-## Introduction
-The Quiz Application is a program that allows users to take a multiple-choice quiz. It loads questions from a file, presents them to the user, and keeps track of the score based on the user's answers.
+The Quiz Application is a multiple-choice quiz program written in Java. It allows you to load questions from a file, present them to the user, and keep track of the score.
 
 ## Features
-- Loads questions from a file.
-- Presents questions to the user with multiple-choice options.
-- Validates user input and provides feedback on correct and incorrect answers.
-- Tracks the user's score throughout the quiz.
-- Displays the final score at the end of the quiz.
+- Loads questions from a text file
+- Presents questions one by one with multiple-choice options
+- Keeps track of the user's score
+- Provides a summary of the quiz results at the end
 
-## Prerequisites
-- Java Development Kit (JDK) installed on your machine.
+## Usage
+1. Ensure you have Java installed on your machine.
+2. Clone or download the Quiz Application repository.
+3. Prepare the questions file:
+   - Create a text file named "questions.txt" in the same directory as the Java file.
+   - Populate the file with questions in the specified format (see example in the repository).
+4. Open a terminal or command prompt and navigate to the project directory.
+5. Compile the Java file:
+```javac QuizApplication.java```
+6. Run the application:
+```java QuizApplication```
+7. Follow the prompts in the console to answer the quiz questions.
+8. After answering all the questions, the application will display a summary of the results.
 
-## How to Run
-1. Clone this repository or download the source code files.
-2. Open a command prompt or terminal and navigate to the project directory.
-3. Compile the Java source files by running the following command:
-   ```
-   javac QuizApplication.java
-   ```
-4. Run the compiled program using the following command:
-   ```
-   java QuizApplication
-   ```
+## Customization
+You can customize the Quiz Application according to your needs:
+- Modify the `questions.txt` file to include your own set of questions.
+- Adjust the scoring system by modifying the `SCORE_PER_QUESTION` constant in the Java file.
+- Enhance the user interface by adding additional formatting or interaction features.
+
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
