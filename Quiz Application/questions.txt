@@ -1,0 +1,20 @@
+Question: What is the capital of France?
+Option A: Paris
+Option B: London
+Option C: Rome
+Option D: Madrid
+Correct Answer: A
+
+Question: Who painted the Mona Lisa?
+Option A: Leonardo da Vinci
+Option B: Pablo Picasso
+Option C: Vincent van Gogh
+Option D: Michelangelo
+Correct Answer: A
+
+Question: What is the largest planet in our solar system?
+Option A: Mercury
+Option B: Venus
+Option C: Jupiter
+Option D: Saturn
+Correct Answer: C
