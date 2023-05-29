@@ -16,7 +16,7 @@ This Java program calculates and displays the average grades for a group of stud
 Contributions are welcome! If you have any suggestions or improvements, please feel free to submit a pull request.
 
 ## Credits
-This project is lcreated by Kalutu Daniel.
+This project was created by Kalutu Daniel.
 
 
 
