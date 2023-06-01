@@ -4,11 +4,10 @@ Welcome to our repository of Java projects for beginners! This repository is des
 ## Contents
 The repository contains a variety of Java projects, including:
 
-- Calculator App
-- Guess the Number Game
-- Todo List App
-- Tic-Tac-Toe Game
-- Temperature Converter
+- Calculator App - a simple calculator program written in Java that can perform basic arithmetic operations such as addition, subtraction, multiplication, and   division.
+- Contact Book - a simple Java program that allows users to store and manage a list of contacts.
+- Quiz Application - is a multiple-choice quiz program written in Java. It allows you to load questions from a file, present them to the user, and keep track of the score.
+- Todo List App - a simple command-line Todo List App implemented in Java using the ArrayList data structure.
 - And more...
 
 ## How to Use
