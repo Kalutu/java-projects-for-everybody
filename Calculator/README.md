@@ -15,3 +15,9 @@ This is a simple calculator program written in Java that can perform basic arith
 
 # Dependencies
 Java SE Development Kit 8 or later
+
+## Contributing
+Contributions to this project are welcome. If you find a bug or have a suggestion for improvement, please open an issue or submit a pull request.
+
+## Credits
+This project was created by Kalutu Daniel.
