@@ -20,3 +20,6 @@ This is a Java application that can store and manage contact information such as
 
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request.
+
+## Credits
+This project was created by Kalutu Daniel.
