@@ -13,6 +13,8 @@ The repository contains a variety of Java projects, including:
 ## How to Use
 To use this repository, simply clone or download the repository to your local machine and open the project you are interested in using an IDE of your choice. Each project comes with a README file that explains the project's requirements, features, and implementation details.
 
+
+
 ## Contributing
 If you have a simple, beginner-level Java project that you would like to add to this repository, please feel free to create a pull request. All contributions are welcome!
 
