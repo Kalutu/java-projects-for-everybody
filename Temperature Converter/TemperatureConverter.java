@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class TemperatureConverter {
-    public static void main(String[] args) {
+    public static void RunTemperatureConverter(String[] args) {
         Scanner input = new Scanner(System.in);
         double temperature;
         char unit;

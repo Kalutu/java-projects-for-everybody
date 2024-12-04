@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class HangmanGame {
     private static final String[] WORDS = {"apple", "banana", "cherry", "date", "elderberry", "fig", "grape"};
 
-    private String word;
-    private StringBuilder guessedWord;
-    private int attemptsLeft;
+    private static String word;
+    private static StringBuilder guessedWord;
+    private static int attemptsLeft;
 
-    public void play() {
+    public static void play() {
         initializeGame();
 
         while (attemptsLeft > 0 && guessedWord.indexOf("_") != -1) {
@@ -25,7 +25,7 @@ public class HangmanGame {
         }
     }
 
-    private void initializeGame() {
+    private static void initializeGame() {
         word = getRandomWord();
         guessedWord = new StringBuilder(word.length());
 
@@ -36,12 +36,12 @@ public class HangmanGame {
         attemptsLeft = 6;
     }
 
-    private String getRandomWord() {
+    private static String getRandomWord() {
         int index = (int) (Math.random() * WORDS.length);
         return WORDS[index];
     }
 
-    private char getGuessFromPlayer() {
+    private static char getGuessFromPlayer() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your guess: ");
@@ -56,7 +56,7 @@ public class HangmanGame {
         return input.charAt(0);
     }
 
-    private void checkGuess(char guess) {
+    private static void checkGuess(char guess) {
         boolean guessedCorrectly = false;
 
         for (int i = 0; i < word.length(); i++) {
@@ -74,9 +74,6 @@ public class HangmanGame {
         }
     }
 
-    public static void main(String[] args) {
-        HangmanGame game = new HangmanGame();
-        game.play();
-    }
+
 }
 

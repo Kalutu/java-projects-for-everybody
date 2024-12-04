@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class StudentGradeCalculator {
 
-    public static void main(String[] args) {
+    public static void RunStudentGradeCalculator(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the number of students: ");

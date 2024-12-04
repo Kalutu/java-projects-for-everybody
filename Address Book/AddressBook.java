@@ -2,10 +2,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AddressBook {
-    static ArrayList<Contact> contacts = new ArrayList<Contact>();
+    static ArrayList<ContactAddress> contacts = new ArrayList<ContactAddress>();
     static Scanner input = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void RunAddressBook(String[] args) {
         int choice;
         do {
             System.out.println("ADDRESS BOOK");
@@ -48,7 +48,7 @@ public class AddressBook {
         String phone = input.next();
         System.out.print("Enter email: ");
         String email = input.next();
-        Contact c = new Contact(name, address, phone, email);
+        ContactAddress c = new ContactAddress(name, address, phone, email);
         contacts.add(c);
         System.out.println("Contact added successfully!");
     }
@@ -68,7 +68,7 @@ public class AddressBook {
         System.out.print("Enter name to search: ");
         String name = input.next();
         boolean found = false;
-        for(Contact c : contacts) {
+        for(ContactAddress c : contacts) {
             if(c.getName().equals(name)) {
                 System.out.println("Contact details:");
                 System.out.println(c);
@@ -85,7 +85,7 @@ public class AddressBook {
         System.out.print("Enter name to delete: ");
         String name = input.next();
         boolean found = false;
-        for(Contact c : contacts) {
+        for(ContactAddress c : contacts) {
             if(c.getName().equals(name)) {
                 contacts.remove(c);
                 System.out.println("Contact deleted successfully!");
@@ -99,13 +99,13 @@ public class AddressBook {
     }
 }
 
-class Contact {
+class ContactAddress {
     private String name;
     private String address;
     private String phone;
     private String email;
 
-    public Contact(String name, String address, String phone, String email) {
+    public ContactAddress(String name, String address, String phone, String email) {
         this.name = name;
         this.address = address;
         this.phone = phone;
