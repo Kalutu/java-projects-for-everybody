@@ -131,7 +131,7 @@ public class QuizApplication {
         return scanner.nextLine().toUpperCase();
     }
 
-    public static void main(String[] args) {
+    public static void RunQuizApplication(String[] args) {
         QuizApplication quiz = new QuizApplication();
 
         try {
