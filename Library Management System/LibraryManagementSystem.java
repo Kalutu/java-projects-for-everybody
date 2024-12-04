@@ -124,7 +124,7 @@ class Library {
 }
 
 public class LibraryManagementSystem {
-    public static void main(String[] args) {
+    public static void RunLibraryManagementSystem(String[] args) {
         Library library = new Library();
 
         // Loading books from a file (if available)
@@ -187,7 +187,7 @@ public class LibraryManagementSystem {
             }
         }
 
-        scanner.close();
+       // scanner.close();
     }
 }
 
