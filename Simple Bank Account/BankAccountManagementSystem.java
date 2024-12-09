@@ -54,7 +54,7 @@ public class BankAccountManagementSystem {
         }
     }
 
-    public static void main(String[] args) {
+    public static void RunBankAccountManagementSystem(String[] args) {
         BankAccountManagementSystem bank = new BankAccountManagementSystem();
         Scanner scanner = new Scanner(System.in);
 
@@ -96,7 +96,8 @@ public class BankAccountManagementSystem {
                     break;
                 case 5:
                     System.out.println("Exiting...");
-                    System.exit(0);
+                    return;
+                    //System.exit(0);
                 default:
                     System.out.println("Invalid choice. Please try again.");
             }

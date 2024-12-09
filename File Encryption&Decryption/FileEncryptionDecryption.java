@@ -10,7 +10,7 @@ public class FileEncryptionDecryption {
     private static final String AES_ALGORITHM = "AES";
     private static final String ENCRYPTED_FILE_EXTENSION = ".enc";
 
-    public static void main(String[] args) {
+    public static void RunFileEncryptionDecryption(String[] args) {
         try {
             // Read user input
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

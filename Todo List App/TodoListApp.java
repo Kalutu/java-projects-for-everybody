@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TodoListApp {
-    public static void main(String[] args) {
+    public static void RunTodoListApp(String[] args) {
         ArrayList<String> todoList = new ArrayList<String>();
         Scanner scanner = new Scanner(System.in);
         
@@ -43,7 +43,7 @@ public class TodoListApp {
         }
         
         System.out.println("Exiting Todo List App.");
-        scanner.close();
+        //scanner.close();
     }
 }
 

@@ -88,7 +88,7 @@ class ContactBook {
 }
 
 public class ContactBookProgram {
-    public static void main(String[] args) {
+    public static void RunContactBook(String[] args) {
         ContactBook contactBook = new ContactBook();
         Scanner scanner = new Scanner(System.in);
         int choice = -1;
@@ -99,7 +99,7 @@ public class ContactBookProgram {
             System.out.println("2. View contacts");
             System.out.println("3. Edit a contact");
             System.out.println("4. Delete a contact");
-            System.out.println("0. Exit");
+            System.out.println("5. Exit");
             System.out.print("Enter your choice: ");
 
             if (scanner.hasNextInt()) {
@@ -142,14 +142,14 @@ public class ContactBookProgram {
                         contactBook.deleteContact(deleteIndex - 1);
                         System.out.println();
                         break;
-                    case 0:
-                        break;
+                    case 5:
+                        return;
                     default:
                         System.out.println("Invalid choice. Please try again.\n");
                 }
             } else {
                 System.out.println("Invalid input. Please try again.\n");
-                scanner.nextLine(); // Consume invalid input
+                //scanner.nextLine(); // Consume invalid input
             }
         }
 
