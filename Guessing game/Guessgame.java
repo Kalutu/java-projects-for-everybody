@@ -11,6 +11,26 @@ public class GuessGame {
     public static void RunGuessGame(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        // let users select a difficulty level:
+        try {
+        System.out.println("Choose a difficulty level: ");
+        System.out.println("1. Easy (1-50)");
+        System.out.println("2. Medium (1-100)");
+        System.out.println("3. Hard (1-200)");
+        int difficulty = input.nextInt();
+
+        switch (difficulty) {
+            case 1:
+                MAX = 50; break;
+            case 2:
+                MAX = 100; break;
+            case 3:
+                MAX = 200; break;
+            default:
+                System.out.println("Invalid choice. Defaulting to Medium.");
+                MAX = 100;
+        }
+
         // Main game loop allowing the user to play multiple times
         while (true) {
             playGame(input);
@@ -18,6 +38,8 @@ public class GuessGame {
                 //input.close(); // Close the scanner after use
                 return;
             }
+        } finally {
+        input.close(); // Ensures scanner is closed
         }
          // Check if the user wants to play again
 
@@ -33,7 +55,7 @@ public class GuessGame {
         int numGuesses = 0;
         boolean correct = false;
 
-        System.out.print("Guess a number between " + MIN + " and " + MAX + ":");
+        System.out.print("Guess a number between " + MIN + " and " + MAX + ": ");
 
         while (!correct) {
             try {
@@ -54,7 +76,9 @@ public class GuessGame {
                 System.out.print("Invalid input. Please enter a valid number between " + MIN + " and " + MAX + ".");
                 input.next(); // Clear the invalid input
             }
-            catch (Exception e) {}
+            // The InputMismatchException already handles invalid inputs, so this general catch block is unnecessary:
+            // catch (Exception e) {}
+
         }
     }
 
@@ -63,11 +87,19 @@ public class GuessGame {
      * @return true if the user wants to play again; false otherwise.
      */
     private static boolean playAgain(Scanner input) {
-        System.out.print("Do you want to play again? (yes/no) : ");
+    while (true) {
+        System.out.print("Do you want to play again? (yes/no): ");
         String response = input.next().trim().toLowerCase();
-        // Read and normalize the user's response
-        return response.equals("yes") || response.equals("y"); // Check if the user wants to continue
+        if (response.equals("yes") || response.equals("y")) {
+            return true;
+        } else if (response.equals("no") || response.equals("n")) {
+            return false;
+        } else {
+            System.out.println("Invalid response. Please type 'yes' or 'no'.");
+        }
     }
+}
+
 }
 
 
