@@ -7,15 +7,15 @@ public class TodoListApp {
         Scanner scanner = new Scanner(System.in);
         
         while (true) {
-            System.out.println("====Todo List====");
+            System.out.println("Todo List");
             for (int i = 0; i < todoList.size(); i++) {
                 System.out.println((i+1) + ". " + todoList.get(i));
             }
             System.out.println("=================");
-            System.out.println("1. Add item");
-            System.out.println("2. Remove item");
-            System.out.println("3. Exit");
-            System.out.print("Enter choice: ");
+            System.out.println("1.Add item");
+            System.out.println("2.Remove item");
+            System.out.println("3.Exit");
+            System.out.print("Enter your choice: ");
             
             int choice = scanner.nextInt();
             scanner.nextLine(); // consume the newline character
