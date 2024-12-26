@@ -6,7 +6,8 @@ To play the game, follow these steps:
 - Download or clone the repository to your local machine.
 - Open the project in your favorite Java IDE or editor.
 - Compile and run the GuessingGame.java file.
-- The program will generate a random number between 1 and 100 and prompt you to guess the number.
+- The program will ask you to choose a difficulty level: Easy (1-50) || Medium (1-100) || Hard (1-200).
+- Once you choose a difficulty level, the program will generate a random number within the chosen range.
 - Enter your guess and press Enter.
 - The program will tell you whether your guess was too high or too low.
 - Keep guessing until you guess the correct number.
@@ -17,3 +18,4 @@ Contributions to this project are welcome. If you find a bug or have a suggestio
 
 ## Credits
 This project was created by Kalutu Daniel.
+
